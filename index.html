@@ -4,6 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barbie</title>
+  <style>
+    body{
+      font-family: Verdana, sans-serif;
+      background-color: #f58ad1;
+      color: #252525;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .nav-container {
+      height: 50px;
+      background-color: #fa578d;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+    nav{
+      padding: 10px 50px;
+    }
+    .nav-bar{
+      display: flex;
+      gap: 25px;
+    }
+    .nav-bar li{
+      list-style: none;
+    }
+    .nav-bar li a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+    }
+    .nav-bar  :hover{
+      color: #333;
+    }
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: none; /* Initially hidden */
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .center-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn {
+      margin: 10px 0;
+      padding: 10px 15px;
+      background-color: #fa578d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #e34779;
+    }
+  </style>
 </head>
 <body>
   <header>

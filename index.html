@@ -31,5 +31,18 @@
   <footer>
     <p>&copy; Live Your Dream in a Barbie World.</p>
   </footer>
+  <script>
+    function toggleImage() {
+      const image = document.getElementById("barbieImage");
+      const button = document.querySelector(".btn");
+      if (image.style.display === "none" || image.style.display === "") {
+        image.style.display = "block";
+        button.textContent = "Hide Image";
+      } else {
+        image.style.display = "none";
+        button.textContent = "Show Image";
+      }
+    }
+  </script>
 </body>
 </html>
